@@ -11,5 +11,6 @@ window.onload = function() {
   const cuando = when[Math.floor(Math.random() * when.length)];
 
   const excuse = quien + " " + accion + " " + que + " " + cuando;
+  
   document.getElementById("excuse").innerHTML = excuse;
 };
