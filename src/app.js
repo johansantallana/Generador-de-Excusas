@@ -9,7 +9,6 @@ window.onload = function() {
   const accion = action[Math.floor(Math.random() * action.length)];
   const que = what[Math.floor(Math.random() * what.length)];
   const cuando = when[Math.floor(Math.random() * when.length)];
-
   const excuse = quien + " " + accion + " " + que + " " + cuando;
   
   document.getElementById("excuse").innerHTML = excuse;
